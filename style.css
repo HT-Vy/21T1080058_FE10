@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(58, 58, 58);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container { 
+	margin: 2% auto; 
+	width: 1200px; 
+	height: 680px;
+	background-color: #000;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+li{
+    list-style-type: none;
+}
+
+.content{
+    height: 680px;
+    width: 50%;
+    float: left;
+
+}
+/* beign css black */
+.black { 
+    position: relative;
+	background-color: #000000;
+    color: #fff;
+    background: url(./img/vader.jpg) no-repeat ;
+
+}
+
+
+.logo {
+    position: absolute;
+    top: 90px;
+    left: 85px;
+	font-size: 17px; 
+	font-weight: 500;	
+	letter-spacing: 1px;
+
+}
+.logo h4{
+    display: inline-block;
+}
+.logo .icon-logo{
+    float: right;
+    height: 4px;
+    width: 4px;
+    background-color: #f23953;
+    border-radius: 50% ;
+}
+
+
+.black h1{
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 140px;
+	margin-bottom: 0;
+    margin-left: 85px;
+}
+
+.nav {
+	position: absolute; 
+	bottom: 100px;
+    left: 85px;
+}
+
+.nav ul {
+	list-style: none; 
+	padding-left: 0;
+}
+
+.nav ul li {
+	float: left;  
+	margin-right: 10px;
+}
+
+.nav ul li a{
+    color: #f23953;
+    text-decoration: none;
+}
+/* End css black */
+
+/* Begin css white */
+.white { 
+	background-color: #fff;
+    position: relative;
+}
+
+.content-inside{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+	padding: 90px;
+	color: #fff;
+	height: 100%;
+
+}
+
+.content-inside > h1{
+    font-size: 40px;
+    color: #000;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+
+}
+
+.content-inside .line{
+    margin-left: 20%;
+    margin-top: 10px;
+    width: 60%;
+    border-top: #ab1100  3px;
+    border-style:groove;
+}
+
+
+.input-group{
+    margin: 35px 0 70px 0;
+
+}
+
+.input-field{
+    font-size: 16px;
+    color: #383838;
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    font-weight:600;
+}
+
+.submit-btn{
+    color: #fff;
+    width: 40%;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 40px 20px ;
+    background: linear-gradient(to right, #ff105f, #ffad06 );
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.submit-btn:hover{
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+
+.link-left{
+    color: #7f7d7dad;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.link-left .line-bottom{
+    margin-top: 3px;
+    border-top: 1px solid #999;
+}
+/* End css white */
